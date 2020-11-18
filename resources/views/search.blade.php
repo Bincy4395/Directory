@@ -25,14 +25,11 @@
         </div>
         <span class="info">ex. Game, Music, Video, Photography</span>
 
-
-
         <div class="container" style="margin-top: 84px; background-color:white;">
         
         <table>
-
-        <h4 style="text-align:center;"><u>Here is your results:</u></h4>
             @if( count($files) > 0 )
+            <h4 style="text-align:center;"><u>Here is your results:</u></h4>
             @foreach( $files as $key=>$file)
                 <tr>
                     <td>
@@ -42,21 +39,12 @@
                 </tr> 
             @endforeach
             @else
-               <h2 style="text-align:center;"><em>No results were found.</em></h2>
+               <h2 style="text-align:center; margin-top: 20px;"><em>No results were found.</em></h2>
             @endif
         </table>
      
-
         </div>
-
-
-
-      </form>
-
-     
-
+    </form>
 </div>
-
-
 
 @endsection

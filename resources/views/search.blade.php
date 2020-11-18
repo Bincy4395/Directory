@@ -23,7 +23,6 @@
             <button class="btn-search" type="submit">SEARCH</button>
           </div>
         </div>
-        <span class="info">ex. Game, Music, Video, Photography</span>
 
         <div class="container" style="margin-top: 84px; background-color:white;">
         
